@@ -51,7 +51,7 @@ details{
 }
 
 /*CSS movil*/
-@media only screen and (max-width: 767.5px){
+@media only screen and (max-width: 480.5px){
 	#general{
 		display:flex;
 		flex-direction:column;
@@ -101,7 +101,7 @@ details{
 }
 
 /*CSS tablet*/
-@media only screen and (min-width: 768px) and (max-width: 1023px){
+@media only screen and (min-width: 481px) and (max-width: 768.5px){
 	#general{
 		display:flex;
 		flex-direction:row;
@@ -135,7 +135,7 @@ details{
 }
 
 /*CSS ordenador*/
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 769px){
 	#general{
 		display:flex;
 		flex-direction:column;
