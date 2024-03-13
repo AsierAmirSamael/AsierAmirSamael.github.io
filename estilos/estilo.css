@@ -64,7 +64,7 @@ details{
 }
 
 /*CSS movil*/
-@media screen and (max-width: 768px){
+@media screen and (max-width: 425px){
 #general{
 	display:flex;
 	flex-direction:column;
@@ -104,29 +104,46 @@ header{
 
 
 /*CSS tablet*/
-@media screen and (min-width: 769px) and (max-width:900px){
+@media screen and (min-width: 426px) and (max-width:768px){
 #general{
 	display:flex;
 	flex-direction:row;
 	width:100%;
 	height:auto;
-	background-color:green;
+	flex-wrap:wrap;
+
 }
 img.banners{
-	width:117px;
-	height:40px
+	width:200px;
+	height:60px
 }
-
-
-
-	
+#info{
+	display:flex
+	flex-direction:row;
+}
+ 
+header{
+	text-align:center;
+}
+article{
+	display:flex;
+	flex-direction:column;
+	width:65%;
+}
+aside{
+	display:flex;
+	flex-direction:column;
+	width:30%;
+	margin-right:10px;
+	margin-left:10px;
+}
 }
 
 
 
 
 /*CSS ordenador*/
-@media screen and (min-width: 901px){
+@media screen and (min-width: 769px){
 #general{
 	display:flex;
 	flex-direction:column;
