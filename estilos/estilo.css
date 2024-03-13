@@ -78,9 +78,25 @@ details{
 		flex-direction:column;
 		width:auto;	
 	}
+	footer{
+		display:flex;
+		flex-direction:column;
+		text-align:center;
+		align-items:center;
+		width:100%;
+		height:10%;
+		font-family:"Cambria";
+		font-weight:bold;
+		color:#189ED7;
+		font-size:80%;
+		margin: auto;
+	}	
 	img.banners{
 		width:175px;
 		height:60px
+	}
+	img.barralarga{
+		width:100%;
 	}
 }
 
