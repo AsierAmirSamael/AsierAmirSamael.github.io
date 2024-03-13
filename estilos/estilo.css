@@ -21,6 +21,7 @@ p.titulos_lateral{
 	font-weight:bold;
 	font-size:80%;
 	text-align:left;
+	
 	background-image:url("../imagenes/header_barralat.png");
 	height:16px;
 }
@@ -58,9 +59,12 @@ footer{
 #info{
 	display:flex;
 }
+details{
+	margin-left:8%;
+}
 
 /*CSS movil*/
-@media screen and (max-width: 767px){
+@media screen and (max-width: 575px){
 #general{
 	display:flex;
 	flex-direction:column;
@@ -100,7 +104,7 @@ header{
 
 
 /*CSS tablet*/
-@media screen and (min-width: 768px) and (max-width:1023px){
+@media screen and (min-width: 576px) and (max-width:768px){
 #general{
 	display:flex;
 	flex-direction:row;
@@ -122,7 +126,7 @@ img.banners{
 
 
 /*CSS ordenador*/
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 769px){
 #general{
 	display:flex;
 	flex-direction:column;
@@ -135,8 +139,8 @@ aside{
 	display:flex;
 	flex-direction:column;
 	width:30%;
-	margin-right:10px;
-	margin-left:10px;
+	margin-right:2%;
+	margin-left:2%;
 }
 article{
 	display:flex;
@@ -152,9 +156,13 @@ img.banners{
 }
 img.cura{
 	width:95%;
+	border-radius:20px;
+	box-shadow: 0px 0px 15px rgb(0, 0, 0, 1.5);
 }
 img.familia{
 	width:95%;
+	border-radius:20px;
+	box-shadow: 0px 0px 15px rgb(0, 0, 0, 1.5);
 }
 img.barrita{
 	width:67%;
