@@ -98,6 +98,16 @@ details{
 	img.barralarga{
 		width:100%;
 	}
+	img.cura{
+		width:95%;
+		border-radius:20px;
+		box-shadow: 0px 0px 15px rgb(0, 0, 0, 1.5);
+	}
+	img.familia{
+		width:95%;
+		border-radius:20px;
+		box-shadow: 0px 0px 15px rgb(0, 0, 0, 1.5);
+	}
 }
 
 /*CSS tablet*/
@@ -131,6 +141,16 @@ details{
 	img.banners{
 		width:200px;
 		height:60px
+	}
+	img.cura{
+		width:95%;
+		border-radius:20px;
+		box-shadow: 0px 0px 15px rgb(0, 0, 0, 1.5);
+	}
+	img.familia{
+		width:95%;
+		border-radius:20px;
+		box-shadow: 0px 0px 15px rgb(0, 0, 0, 1.5);
 	}
 }
 
