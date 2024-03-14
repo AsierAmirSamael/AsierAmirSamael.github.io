@@ -33,6 +33,7 @@ p.titulos_lateral{
 	background-image:url("../imagenes/header_barralat.png");
 	height:16px;
 }
+
 .texto_noticias{
 	font-family:"Cambria";
 	color:#181BD7;
@@ -59,24 +60,22 @@ details{
 	margin-left:8%;
 }
 img.banners{
-		width:175px;
-		height:60px
+	width:175px;
+	height:60px
 	}
 img.barralarga{
-		max-width:100%;
+	max-width:100%;
 	}
 img.barrita{
-		max-width:100%;
+	max-width:100%;
 	}
-img.cura{
-		
-		border-radius:20px;
-		box-shadow: 0px 0px 15px rgb(0, 0, 0, 1.5);
+img.cura{	
+	border-radius:20px;
+	box-shadow: 0px 0px 15px rgb(0, 0, 0, 1.5);
 	}
-img.familia{
-		
-		border-radius:20px;
-		box-shadow: 0px 0px 15px rgb(0, 0, 0, 1.5);
+img.familia{	
+	border-radius:20px;
+	box-shadow: 0px 0px 15px rgb(0, 0, 0, 1.5);
 	}
 	
 article{
@@ -85,7 +84,7 @@ article{
 }
 	
 /*CSS movil*/
-@media only screen and (max-width: 480.5px){
+@media only screen and (max-width: 480.9px){
 	#general{
 		display:flex;
 		flex-direction:column;
@@ -131,7 +130,7 @@ article{
 }
 
 /*CSS tablet*/
-@media only screen and (min-width: 481px) and (max-width: 768.5px){
+@media only screen and (min-width: 481px) and (max-width: 768.9px){
 	
 	
 	#general{
@@ -153,15 +152,15 @@ article{
 	article{
 		display:flex;
 		flex-direction:column;
-		width:65%;
+		width:70%;
 		box-sizing: border-box;
 	}
 	aside{
 		display:flex;
 		flex-direction:column;
-		width:35%;
-		margin-right:10px;
-		margin-left:10px;
+		width:37%;
+		margin-right:2%;
+		margin-left:1%;
 		box-sizing: border-box;
 	}
 	img.banners{
@@ -183,9 +182,9 @@ article{
 	aside{
 		display:flex;
 		flex-direction:column;
-		width:30%;
+		width:37%;
 		margin-right:2%;
-		margin-left:2%;
+		margin-left:1%;
 	}
 	article{
 		display:flex;
