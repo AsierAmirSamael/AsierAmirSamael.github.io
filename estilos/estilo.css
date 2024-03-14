@@ -8,6 +8,7 @@ header{
 }
 #info{
 	display:flex;
+	max-width:100%;
 }
 footer{
 	display:flex;
@@ -21,6 +22,7 @@ footer{
 	color:#189ED7;
 	font-size:80%;
 	margin: auto;
+
 }
 p.titulos_lateral{
 	font-family:"Cambria";
@@ -37,6 +39,7 @@ p.titulos_lateral{
 	font-size:80%;
 	text-align:justify;
 }
+/**para que la lista tenga el mismo tamaño de letra**/
 .texto_noticias li {
     font-size: inherit; 
 }
@@ -50,21 +53,37 @@ a.enlaces_lateral{
 	font-size:10px;
 	margin-left:13px;
 	color:black;
-	text-decoration:none;
-}
-img.banners{
-		width:175px;
-		height:60px
+	text-decoration:none;/*falta que no tenga subrayado*/
 }
 details{
 	margin-left:8%;
 }
+img.banners{
+		width:175px;
+		height:60px
+	}
 img.barralarga{
-	max-width:100%;
-}
+		max-width:100%;
+	}
 img.barrita{
-	max-width:100%;
+		max-width:100%;
+	}
+img.cura{
+		
+		border-radius:20px;
+		box-shadow: 0px 0px 15px rgb(0, 0, 0, 1.5);
+	}
+img.familia{
+		
+		border-radius:20px;
+		box-shadow: 0px 0px 15px rgb(0, 0, 0, 1.5);
+	}
+	
+article{
+	margin-right:2%;
+	
 }
+	
 /*CSS movil*/
 @media only screen and (max-width: 480.5px){
 	#general{
@@ -106,20 +125,15 @@ img.barrita{
 		font-size:80%;
 		margin: auto;
 	}	
-	img.cura{
-		width:95%;
-		border-radius:20px;
-		box-shadow: 0px 0px 15px rgb(0, 0, 0, 1.5);
-	}
-	img.familia{
-		width:95%;
-		border-radius:20px;
-		box-shadow: 0px 0px 15px rgb(0, 0, 0, 1.5);
-	}
+	
+	
+	
 }
 
 /*CSS tablet*/
 @media only screen and (min-width: 481px) and (max-width: 768.5px){
+	
+	
 	#general{
 		display:flex;
 		flex-direction:row;
@@ -127,37 +141,35 @@ img.barrita{
 		height:auto;
 		flex-wrap:wrap;
 	}
+	
 	header{
 		text-align:center;
 	}
 	#info{
-		display:flex;
+		display:flex
 		flex-direction:row;
+		
 	}
 	article{
 		display:flex;
 		flex-direction:column;
-		width:70%;
+		width:65%;
 		box-sizing: border-box;
 	}
 	aside{
 		display:flex;
 		flex-direction:column;
-		width:30%;
+		width:35%;
 		margin-right:10px;
 		margin-left:10px;
 		box-sizing: border-box;
 	}
-	img.cura{
-		width:95%;
-		border-radius:20px;
-		box-shadow: 0px 0px 15px rgb(0, 0, 0, 1.5);
+	img.banners{
+		
+		width:175px;
+		height:60px
 	}
-	img.familia{
-		width:95%;
-		border-radius:20px;
-		box-shadow: 0px 0px 15px rgb(0, 0, 0, 1.5);
-	}
+
 }
 
 /*CSS ordenador*/
@@ -180,13 +192,7 @@ img.barrita{
 		flex-direction:column;
 		width:70%;		
 	}
-	img.cura{
-		width:95%;
-		border-radius:20px;
-		box-shadow: 0px 0px 15px rgb(0, 0, 0, 1.5);
-	}
-	img.familia{
-		width:95%;
-		border-radius:20px;
-		box-shadow: 0px 0px 15px rgb(0, 0, 0, 1.5);
-	}
+	
+	
+	
+}
