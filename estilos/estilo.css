@@ -34,6 +34,9 @@ p.titulos_lateral{
 	font-size:80%;
 	text-align:justify;
 }
+.texto_noticias li{
+    font-size: inherit; 
+}
 .titulo_noticias{
 	color:#189ED7;
 	font-family:"Cambria";
@@ -49,7 +52,9 @@ a.enlaces_lateral{
 details{
 	margin-left:8%;
 }
-
+.cursor {
+    cursor: url("../imagenes/cursor.png"), auto;
+}
 /*CSS movil*/
 @media only screen and (max-width: 480.5px){
 	#general{
