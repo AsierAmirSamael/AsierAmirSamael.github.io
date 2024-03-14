@@ -1,0 +1,58 @@
+#general{
+	width:100%;
+	height:10cm;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0;
+	margin-bottom:0;
+	background-color:#CCCC99;
+}
+#cabecera{
+	width:100%;
+	height:20%;
+	background-color:blue;
+	background-color:#CCCC99;
+}
+.txtcabecera{
+	text-align:center;
+	text-decoration:underline;
+	line-height:50px;
+}
+#izq{
+	width:50%;
+	height:60%;
+	background-color:yellow;
+	float:left;
+	background-color:#CCCC99;
+
+}
+#der{
+	width:50%;
+	height:60%;
+	background-color:green;
+	float:left;
+	text-align:center;
+	background-color:#CCCC99;
+}
+.bordetxt{
+	border:solid 4px red;
+	max-width:210px;
+}
+ul li{
+	text-decoration:underline;
+}
+img{
+	margin-top:20px;
+
+}
+#pie{
+	width:100%;
+	height:20%;
+	background-color:blue;
+	float:left;
+	background-color:#CCCC99;
+}
+.txtpie{
+	text-align:center;
+	line-height:50px;
+}

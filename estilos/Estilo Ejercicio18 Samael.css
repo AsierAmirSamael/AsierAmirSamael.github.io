@@ -1,0 +1,22 @@
+#caja1{
+	z-index: 1;
+	position: absolute;
+	border: 5px solid blue;
+	margin-top: 10em;
+	margin-left: 8em;
+}
+#caja2{
+	z-index: 2;
+	position: absolute;
+	border: 5px solid red;
+	margin-top: 8em;
+	margin-left: 5em;
+}
+#caja3{
+	z-index: 3;
+	position: absolute;
+	border: 5px solid green;
+	margin-top: 5em;
+	margin-left: 2em;
+}
+
