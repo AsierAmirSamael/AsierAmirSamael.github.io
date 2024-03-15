@@ -131,15 +131,14 @@ cursor: url("../imagenes/cursor.png"), auto;
 	article{
 		display:flex;
 		flex-direction:column;
-		width:70%;
+		min-width:62%;
 		box-sizing: border-box;
 	}
 	aside{
 		display:flex;
 		flex-direction:column;
-		width:37%;
-		margin-right:2%;
-		margin-left:1%;
+		max-width:37%;
+		margin-right:1%;
 		box-sizing: border-box;
 	}
 	img.banners{
@@ -160,13 +159,12 @@ cursor: url("../imagenes/cursor.png"), auto;
 	aside{
 		display:flex;
 		flex-direction:column;
-		width:37%;
-		margin-right:2%;
-		margin-left:1%;
+		max-width:37%;
+		margin-right:1%;
 	}
 	article{
 		display:flex;
 		flex-direction:column;
-		width:70%;		
+		min-width:62%;		
 	}
 }
