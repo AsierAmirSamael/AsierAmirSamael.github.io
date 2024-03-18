@@ -25,9 +25,6 @@ p.titulos_lateral{
 	text-align:left;
 	background-image:url("../imagenes/header_barralat.png");
 	height:16px;
-	/* margin-left: 13px; 
-	no hemos puesto esto pese a que lo pone en los requisitos ya que queda mal
-	con el resto de cosas que hay en el aside */
 }
 p.texto_pie{
 	font-family:"Cambria";
@@ -35,28 +32,26 @@ p.texto_pie{
 	color:#189ED7;
 	font-size:80%;
 }
-.texto_noticias{
+article p, ul li{
 	font-family:"Cambria";
 	color:#181BD7;
 	font-size:80%;
 	text-align:justify;
 }
 
-.texto_noticias li {
-    font-size: inherit; 
-}
-h2.titulo_noticias{
+article h2{
 	color:#189ED7;
 	font-family:"Cambria";
 	text-align:center;
 }
-details.enlaces_lateral{
+details {
 	font-family:"Cambria";
 	margin-left:13px;
 	font-size:10px;
+}
+aside details a{
 	color:black;
 	text-decoration:none; 
-	
 }
 img.banners{
 	width:175px;
@@ -64,15 +59,6 @@ img.banners{
 }
 img.barralarga{
 	width:100%;
-}
-
-img.cura{	
-	border-radius:20px;
-	box-shadow: 0px 0px 15px rgb(0, 0, 0, 1.5);
-}
-img.familia{	
-	border-radius:20px;
-	box-shadow: 0px 0px 15px rgb(0, 0, 0, 1.5);
 }
 a.cursor {
 cursor: url("../imagenes/cursor.png"), auto;
