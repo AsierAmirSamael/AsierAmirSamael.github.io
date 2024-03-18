@@ -53,12 +53,10 @@ h2.titulo_noticias{
 details.enlaces_lateral{
 	font-family:"Cambria";
 	margin-left:13px;
-	font-size:15px; /* Pese a que en el proyecto indicaba ponerlo a 10px hemos aumentado 5px mas ya
-					que notabamos que era demasiado pequeño y poco legible */
-	/* color:black;
+	font-size:10px;
+	color:black;
 	text-decoration:none; 
-	Aunque indicaba que deberia estar el enlace sin subrayar, creemos que queda
-	mejor y mas entendible que es un hyperenlace y se puede clicar en el si esta subrayado y en azul */
+	
 }
 img.banners{
 	width:175px;
