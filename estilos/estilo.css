@@ -88,9 +88,6 @@ cursor: url("../imagenes/cursor.png"), auto;
 		width:100%;
 		height:auto;
 	}
-	header{
-		text-align:center;
-	}
 	#info{
 		flex-direction:column;
 	}
@@ -117,9 +114,6 @@ cursor: url("../imagenes/cursor.png"), auto;
 		width:100%;
 		height:auto;
 		flex-wrap:wrap;
-	}
-	header{
-		text-align:center;
 	}
 	#info{
 		display:flex;
